@@ -39,6 +39,12 @@ section {
   .flex-col-center {
     @apply flex flex-col justify-center items-center;
   }
+  .text-white-50 {
+    color: #d9ecff;
+  }
+  .group:hover .group-hover\:bg-black-50 {
+    background-color: #1c1c21;
+  }
 }
 
 @layer components {
